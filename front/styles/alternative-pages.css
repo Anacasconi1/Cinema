@@ -1,0 +1,50 @@
+/* en este modulo se ubican todos los estilos de los elementos que comparten todas las paginas excepto el index */
+
+#icon-and-arrow{
+    display: flex;
+    width: 130px;
+    justify-content: space-between;
+    
+}
+
+.btn-primary{
+    background-color: var(--color-secundario) !important;
+    border-color: var(--color-secundario) !important;
+}
+
+#title-static-page{
+    text-align: center;
+    color: var(--color-secundario);
+    font-size: 50px;
+}
+
+.movies-genre-container{
+    display: flex;
+    justify-content: space-evenly;
+    min-height: 80vh;
+    padding: 30px;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+}
+
+h6, p {
+    font-size: 15px;
+}
+
+#genre-title{
+    text-align: center;
+}
+
+#info-dev {
+    width: 100px;
+    height: 30px;
+    background-color: var(--color-secundario);
+    padding: 5px;
+    border-radius: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#info-dev:hover, #genre:hover, #search-bar:hover {
+    color: var(--color-secundario-claro);
+}

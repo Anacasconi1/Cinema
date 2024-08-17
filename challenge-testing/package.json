@@ -1,0 +1,14 @@
+{
+  "name": "challenge-testing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "author": "Ana Sabrina Casconi",
+  "license": "ISC",
+  "description": "homework de testing avanzado",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

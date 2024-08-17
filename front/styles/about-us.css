@@ -1,0 +1,22 @@
+/* en este modulo se aplican los estilos de la pagina estática "about us" */
+
+#title-static-page{
+    text-align: center;
+    color: var(--verde-grisaceo);
+    font-size: 50px;
+}
+
+#about-us-container{
+    display: flex;
+    justify-content: center;
+    height: 70vh;
+    width: 20vw;
+    margin-top: 10vh;
+    margin-left: 37vw;
+    margin-bottom: 15vw;
+    padding: 30px;
+    border-style: groove;
+    border-radius: 15px;
+    box-shadow: 10px 5px 10px var(--black);
+    overflow: scroll;
+}

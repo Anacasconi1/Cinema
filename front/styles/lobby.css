@@ -1,0 +1,92 @@
+/* en este modulo se ubican los elementos de la pagina principal que no van en las demas paginas */
+
+main {
+    margin-top: 70px;
+}
+
+main h3 {
+    text-align: center;
+    color: var(--black);
+}
+
+main h5{
+    color: var(--text-color);
+    font-size: 15px;
+    display: inline-flex;
+    position: relative;
+    height: 50px;
+    margin-top: 30px;
+    min-width: 120px;
+    border: 3px ridge var(--color-secundario-claro);
+    outline: none;
+    background: transparent;
+    border-radius: 8px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+main h5::after {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 3%;
+    width: 95%;
+    height: 40%;
+    background-color: var(--background);
+    transition: 0.5s;
+    transform-origin: center;
+}
+
+main h5::before {
+    content: "";
+    transform-origin: center;
+    position: absolute;
+    top: 80%;
+    left: 3%;
+    width: 95%;
+    height: 40%;
+    background-color: var(--background);
+    transition: 0.5s;
+    }
+
+main h5:hover::before, main h5:hover::after {
+    transform: scale(0)
+    }
+
+
+main h5:hover {
+    box-shadow: inset 0px 0px 25px var(--black);
+}
+
+hr {
+    border-width: 3px;
+    border-color: var(--black);
+    
+}
+
+ul {
+    padding: 0;
+}
+
+#genres-h5{
+    margin-left: 25px;
+}
+
+#info-dev {
+    width: 100px;
+    height: 30px;
+    background-color: var(--color-secundario);
+    padding: 5px;
+    border-radius: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#info-dev:hover, #genre:hover, #search-bar:hover {
+    color: var(--color-secundario-claro);
+}
+
+.btn-primary {
+    border-color: var(--color-secundario) !important;
+}
